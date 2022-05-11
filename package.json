@@ -1,5 +1,5 @@
 {
-  "name": "@bcamarneiro/react-google-login",
+  "name": "react-google-login",
   "version": "5.1.3",
   "description": "A Google Login Component for React. Actually, a clone from the original repo but with support for plugin_name prop. All credits go to the original developer.",
   "main": "dist/google-login.js",
