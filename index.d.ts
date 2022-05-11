@@ -162,6 +162,7 @@ export interface UseGoogleLoginProps {
   readonly onScriptLoadFailure?: (error: any) => void,
   readonly onAutoLoadFinished?: (successLogin: boolean) => void,
   readonly clientId: string,
+  readonly pluginName?: string,
   readonly jsSrc?: string,
   readonly onRequest?: () => void,
   readonly scope?: string,

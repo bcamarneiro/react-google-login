@@ -1,7 +1,7 @@
 {
-  "name": "react-google-login",
+  "name": "@bcamarneiro/react-google-login",
   "version": "5.1.3",
-  "description": "A Google Login Component for React",
+  "description": "A Google Login Component for React. Actually, a clone from the original repo but with support for plugin_name prop. All credits go to the original developer.",
   "main": "dist/google-login.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.config.dev.js",
@@ -34,10 +34,16 @@
     "google-oAuth2",
     "google-oAuth"
   ],
-  "author": {
-    "name": "Anthony Grove",
-    "email": "anthony@th3legend.com"
-  },
+  "authors": [
+    {
+      "name": "Anthony Grove",
+      "email": "anthony@th3legend.com"
+    },
+    {
+      "name": "Bruno Camarneiro",
+      "email": "bruno@camarneiro.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/anthonyjgrove/react-google-login/issues"
